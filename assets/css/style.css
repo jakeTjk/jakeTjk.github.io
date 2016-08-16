@@ -339,6 +339,10 @@ span {
 	color: #ffffff;
 }
 
+.light-text2 {
+	color: cadetblue;
+}
+
 .light-text .sub-heading {
 	color: #ffffff;
 }
@@ -348,16 +352,23 @@ span {
 }
 
 .dark-text {
-	color: #000000;
+	color: darkslategray;
 }
 
 .dark-text .fa {
 	color: inherit;
 }
 
+.italic {
+    font-style: italic;
+}
+
 /* ----------------------------------------------------------------------------
     Common styles
 ---------------------------------------------------------------------------- */
+.indent {
+    padding-left: 2.5em;
+}
 .refer-box {
     background-color: rgba(255, 255, 255, 0.6);
     padding: 2em 2em 2em 2em;
@@ -5467,7 +5478,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 }
 
 .static-header.register-version {
-	background-image: url("../img/background/smb_owner.jpg");
+	background-image: url("../img/background/dad.jpg");
 }
 
 .static-header.register-version .signup-wrapper {
@@ -5989,7 +6000,7 @@ body:not(.always-mobile) .white-dropdown .navigation-bar > .dropdown:not(.featur
 }
 
 .waiting-list-page .navigation-header .navigation-bar > li:not(.featured):not(.active) > a {
-	color: #000000;
+	color: lightslategray;
 }
 
 .color-landing-page header:not(.fixed-menu) .navigation-header .navigation-bar.navigation-bar-left > li.active > a {
