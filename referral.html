@@ -20,6 +20,13 @@
 		<script src="assets/js/html5shiv.js"></script>
 		<script src="assets/js/respond.min.js"></script>
 	<![endif]-->
+        <script>
+            function getUrlVar(key){
+                var result = new RegExp(key + "=([^&]*)", "i").exec(window.location.search); 
+                return result && unescape(result[1]) || ""; 
+                }
+                </script>
+                
 </head>
 
 <body id="register-page" class="register-page">
@@ -65,18 +72,22 @@
 
 		<div class="window-height light-text form-section form-section2 clearfix">
 			<div class="container centered-block">
-<!--                            <div class="col-sm-6"></div>
+                            <div class="col-sm-3"></div>
                             
-            -->
+            
                             <div class="col-sm-6 refer-box ">
 				
 				<div class="align-center">
 					<div class="row">
-						<div class='prefinery-viral-referral-embed' data-prefinery-tester-email="excalibres@gmail.com"></div>
+						<div class='prefinery-viral-referral-embed' data-prefinery-tester-id=getUrlVar("ref")></div>
 					</div>
+                                    <div>
+                                        <img src="assets/img/lifecove/reward.png" class="img-responsive" alt="process 3" />
+                                    </div>
 				</div>
+                                
                             </div>
-<!--                            <div class="col-sm-3"></div>-->
+                            <div class="col-sm-3"></div>
 			</div>
                      <br>
                      <br>
