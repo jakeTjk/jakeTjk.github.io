@@ -20,12 +20,7 @@
 		<script src="assets/js/html5shiv.js"></script>
 		<script src="assets/js/respond.min.js"></script>
 	<![endif]-->
-        <script>
-            function getUrlVar(key){
-                var result = new RegExp(key + "=([^&]*)", "i").exec(window.location.search); 
-                return result && unescape(result[1]) || ""; 
-                }
-                </script>
+      
                 
 </head>
 
@@ -79,7 +74,8 @@
 				
 				<div class="align-center">
 					<div class="row">
-						<div class='prefinery-viral-referral-embed' data-prefinery-tester-id=getUrlVar("ref")></div>
+                                                
+                                            <div id='referral' class='prefinery-viral-referral-embed' data-prefinery-tester-id=2134</div>
 					</div>
                                     <div>
                                         <img src="assets/img/lifecove/reward.png" class="img-responsive" alt="process 3" />
@@ -113,6 +109,15 @@
 	<script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
 	<script type="text/javascript" src="assets/js/toastr.min.js"></script>
 	<script type="text/javascript" src="assets/js/startuply.js"></script>
+        <script>
+            function getUrlVar(key){
+                var result = new RegExp(key + "=([^&]*)", "i").exec(window.location.search); 
+                return result && unescape(result[1]) || ""; 
+                }
+                var ref = getUrlVar('ref');
+                var refer = document.getElementById('referral');
+                refer.dataset.prefineryTesterId = ref;
+                </script>
         <!-- Start of Async Prefinery Code -->
 <script type="text/javascript">var _pfy = _pfy || [];(function(){function pfy_load(){var pfys=document.createElement('script');pfys.type='text/javascript';pfys.async=true;pfys.src='https://widget.prefinery.com/widget/v2/crasp4yt.js';var pfy=document.getElementsByTagName('script')[0];pfy.parentNode.insertBefore(pfys,pfy);}if (window.attachEvent){window.attachEvent('onload',pfy_load);}else{window.addEventListener('load',pfy_load,false);}})();</script>
 <!-- End of Async Prefinery Code -->
