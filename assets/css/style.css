@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
+@import 'https://fonts.googleapis.com/css?family=Raleway:300';
 @import "lib/font-lineicons.css";
 @import "lib/toastr.min.css";
 @import "lib/bootstrap.min.css";
@@ -235,7 +236,7 @@ h5,
 h6,
 .heading {
 	display: block;
-	font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-family: "Raleway",Helvetica,Arial,sans-serif!important;
 	line-height: 1.1;
 }
 
@@ -340,7 +341,7 @@ span {
 }
 
 .light-text2 {
-	color: cadetblue;
+	color: #fff;
 }
 
 .light-text .sub-heading {
@@ -4416,7 +4417,7 @@ td.cart-list-item-price {
 	left: 0;
 	right: 0;
 	padding: 3px 0 4px;
-	background-color: transparent;
+	background-color: whitesmoke;
 	z-index: 100;
 }
 
@@ -4448,7 +4449,7 @@ td.cart-list-item-price {
 	background-size: contain;
 	display: block;
 	height: 40px;
-	background-image: url("../img/lifecove/transparent.png");
+	background-image: url("../img/lifecove_/transparent.png");
 	background-repeat: no-repeat;
 	background-position: left center;
 	line-height: 30px;
@@ -4541,7 +4542,7 @@ td.cart-list-item-price {
 	font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
-	color: rgba(240, 240, 240, 0.8);
+	color: lightslategray;
 	line-height: 1;
 	border-bottom: 2px solid transparent;
 }
@@ -5005,7 +5006,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 	background-size: cover;
 	padding: 0 0 30px;
 	font-weight: 300;
-	background-image: url('../img/background/background.jpg');
+	background-image: url('../img/lifecove_/footer.jpg');
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-attachment: fixed;
@@ -5385,11 +5386,11 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 }
 
 .form-section1 {
-	background-image: url("../img/background/family.jpg");
+	background-image: url("../img/lifecove_/signup_bg.jpg");
 }
 
 .form-section2 {
-	background-image: url("../img/background/background2.jpeg");
+	background-image: url("../img/lifecove_/referral_bg.jpeg");
 }
 
 .form-section3 {
@@ -5445,10 +5446,8 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 	-moz-background-size: cover;
 	background-size: cover;
 	position: relative;
-	background-image: url("../img/background/low_poly_background.jpg");
 	background-repeat: no-repeat;
-	background-position: top center;
-	background-attachment: fixed;
+	background-position: bottom center;
 }
 
 .static-header .heading-block {
@@ -5478,7 +5477,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 }
 
 .static-header.register-version {
-	background-image: url("../img/background/dad.jpg");
+	background-image: url("../img/lifecove_/background2.png");
 }
 
 .static-header.register-version .signup-wrapper {
@@ -5865,7 +5864,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 }
 
 .waiting-list-page .navigation-header .navigation-brand .brand-logo .logo {
-	background-image: url("../img/lifecove/Transparent.png");
+	background-image: url("../img/lifecove_/transparent.png");
 }
 
 /* Media queries */
